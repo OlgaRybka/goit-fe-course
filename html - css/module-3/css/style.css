@@ -1,0 +1,77 @@
+.menu-link{
+    text-decoration: none;
+    font-family: "Playfair Display","Arial", serif;
+    color: #626262;
+    font-size: 14 px;
+    line-height: 17 px; 
+    text-transform: uppercase;
+    padding: 0 60px;
+    margin: 10px;
+    border: 1px;
+    }
+
+.sitenav ul li{
+        display: inline-block; 
+}
+
+.menu-bar {
+    margin: auto;
+    width: fit-content;
+    text-align: center;  
+ }  
+
+ a:hover{
+    color: #b8dffb;
+}
+.container {
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle }
+main{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+article {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    width: 470px;
+    margin: 50px 10px;
+    padding: 25px;
+    border: 1px;
+}
+          
+.description {
+    font-family: "Ubuntu","Arial", sans-serif;
+    color: #dedbd4;
+    font-size: 14 px;
+    line-height: 17 px;
+}
+
+.title{
+    font-family: "Playfair Display", "Arial", sans-serif;
+    color: #626262;
+    font-size: 30 px;
+    line-height: 36 px;
+}
+
+.about{
+    font-family: "Playfair Display", "Arial", sans-serif;
+    color: #626262;
+    font-size: 14 px;
+    line-height: 17 px;
+}
+
+button {
+    font-family: "Playfair Display", "Arial", sans-serif;
+    font-size: 20 px;
+    line-height: 60px;
+    width: 180px;
+    margin: 10px;
+    border: 1px;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+   } 
