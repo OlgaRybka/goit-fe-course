@@ -16,8 +16,11 @@ padding: 0px;
     height: 0;
 }
 
+.pageheader {
+    padding: 30px 0px
+}
+    
 .sitenav{
-    padding: 30px 0px;
     float:right;
     height:30px; 
 }
@@ -54,7 +57,7 @@ li.sitenav{
     list-style-type: none;
 }
 
- a {
+a {
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -115,7 +118,7 @@ h1:after{
    }
 .price{
     height:40px;
-    width:53px;
+    width:55px;
     background: #8c8c8c;
     float:left;
     line-height: 40px;
