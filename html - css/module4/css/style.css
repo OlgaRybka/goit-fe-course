@@ -92,7 +92,7 @@ h1:after{
 }
 
 .shop {
-    max-width: 1111px;
+    max-width: 1170px;
 }
 .d:not(:nth-of-type(4n)) {
     margin-right: 27px;
@@ -106,6 +106,9 @@ h1:after{
     margin: 1em;
 }
 
+.d:not(:nth-of-type(4n)){
+    margin-right:0;
+}
 
 .underimg{
     margin-top: -6px;
