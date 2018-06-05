@@ -64,6 +64,11 @@ ul li:hover{
     position: relative;
 }
 
+.sl{
+    position: relative; 
+    z-index: 1;
+}
+
 .slider:before{
     content:"";
     position: absolute;
@@ -81,6 +86,7 @@ ul li:hover{
    width: 104px;
    height: 104px;
    border: 0;
+   z-index: 1;
 }
 
 .lt{
@@ -128,7 +134,8 @@ ul li:hover{
 }*/
 
 h2{
-    margin: 105px auto;
+    margin: 0 auto;
+    padding: 150px 0 0;
     text-align: center;
     font-family: "Roboto Black", sans-serif;
     color:  #515151;
@@ -154,6 +161,10 @@ h2{
     vertical-align: middle;
     max-width: 1170px;
     margin-bottom: 115px;
+}
+
+.collection{
+    background: #e9f0fd;
 }
 
 .d{
@@ -207,8 +218,7 @@ h2{
     left: 10px;
     width:210px;
     height:261px;
-    background: #737373;
-    opacity: 0.5;
+    background: rgba(115, 115, 115, .5);
     display: none;
     text-align: center;
 }
