@@ -2,11 +2,6 @@
     box-sizing:border-box
 }
 
-.wrapper{
-    width: 1170px;
-    margin: 0 auto;
-}
-
 .mainmenu{
     float: right;
 }
@@ -91,14 +86,14 @@ ul li:hover{
 
 .lt{
     position: absolute;
-    left: -180px;
-    top:15px;
+    left: 180px;
+    top: 215px;
 }
 
 .rt{
     position: absolute;
-    right: -180px;
-    top:15px;
+    right: 180px;
+    top: 215px;
 }
 
 .slider h1{
@@ -124,14 +119,9 @@ ul li:hover{
     margin-top:205px;
     display:inline-block;
     position: relative;
+    z-index: 1;
 }
 
-/*.newcollection {
-    min-height: 598px;
-    background-color: #e9f0fd;
-    margin-bottom:40px;
-    background-size: cover;
-}*/
 
 h2{
     margin: 0 auto;
@@ -160,7 +150,9 @@ h2{
     display: block;
     vertical-align: middle;
     max-width: 1170px;
-    margin-bottom: 115px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+    padding-bottom: 35px;
 }
 
 .collection{
@@ -177,16 +169,12 @@ h2{
     margin: 1em;
 }
 
-.d img {
-    width:255px;
-
-}
 .underimg{
     margin-top: -6px;
 }
 .name{
     height:40px;
-    width:200px;
+    width:220px;
     background: #323232;
     float:left;
     line-height:40px;
@@ -216,7 +204,7 @@ h2{
     position: absolute;
     top: 10px;
     left: 10px;
-    width:210px;
+    width:235px;
     height:261px;
     background: rgba(115, 115, 115, .5);
     display: none;
@@ -235,8 +223,18 @@ h2{
     width:100%;
 }
 
+.busket{
+    display:inline-block;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+}
 .icons li{
-    display: inline-block;
+    width:48px;
+    margin: 0;
+    float:left;
+    margin-left:8%;
+    max-width: 100%;
 }
 
 .icons a{
@@ -249,9 +247,6 @@ h2{
     background-color: transparent;
 }
 
-.icons a:hover{
-    background-color: #1abc9c;
-}
 
 .card-button{
     position:absolute;
@@ -268,7 +263,6 @@ h2{
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
