@@ -84,17 +84,18 @@ ul li:hover{
    z-index: 1;
 }
 
-.lt{
+.rt {
     position: absolute;
-    left: 180px;
+    right: 80px;
     top: 215px;
-}
+    }
 
-.rt{
+.lt {
     position: absolute;
-    right: 180px;
+    left: 80px;
     top: 215px;
-}
+    }
+
 
 .slider h1{
    font-family: "Roboto Black",sans-serif;
@@ -229,24 +230,34 @@ h2{
     text-align: left;
     height: auto;
 }
-.icons li{
-    width:48px;
-    margin: 0;
-    float:left;
-    margin-left:8%;
-    max-width: 100%;
-}
 
-.icons a{
-    display:block;
+
+.icons a {
+    display: block;
     width: 48px;
-    height:48px;
+    height: 48px;
     border-width: 1px;
-    border-color:#ffffff;
+    border-color: #ffffff;
     border-style: solid;
     background-color: transparent;
+    float:left;
+    margin: 0;
+    position: relative;
+    left:19%;
+    }
+
+.icons a:hover{
+    background: #1abc9c;
 }
 
+
+
+.icons img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .card-button{
     position:absolute;
