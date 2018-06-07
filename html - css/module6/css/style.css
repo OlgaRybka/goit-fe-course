@@ -190,6 +190,7 @@ h1, h3 {
     background: linear-gradient(to top, #f1d787, #ef898a);
     box-shadow: 6px 6px #95e1d3;
     z-index: 1;
+    opacity:0.8;
     display: none;
     text-align: center;
 }
@@ -215,6 +216,11 @@ h1, h3 {
 
 .icons a{
     display: inline-block;
+    float:left;
+    left:20%;
+    bottom:26px;
+    margin: 1px;
+    padding: 0;
     width: 56px;
     height: 56px;
     background-color:  #fce38a;
