@@ -308,3 +308,13 @@ input:required:valid{
     border-color: green;
     border-width: 3px;
 }
+
+textarea:required:invalid{
+    border-color: #800000;
+    border-width: 3px;
+}
+
+textarea:required:valid{
+    border-color: green;
+    border-width: 3px;
+}
