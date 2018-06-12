@@ -88,9 +88,6 @@
     margin-top:75px;
 }
 
-.reviews{
-    text-align: center;
-}
 .wrap{
     text-align: center;
     margin:20px 0 30px 0;
@@ -99,11 +96,6 @@
 .pic{
     max-width:100%;
     height:auto;
-}
-
-.pictures{
-    display:flex;
-    
 }
 
 .icon_wrapper {
@@ -124,9 +116,7 @@
     background-color:  #ff4e50;
 }
 
-.icon2{
-    background-color:  #ff4e50;
-}
+
 .name{
     font-family: "Montserrat",sans-serif;
     font-size: 14px;
@@ -143,6 +133,7 @@
 }
 
 .others{
+    margin-top:20px;
     font-family: "Montserrat",sans-serif;
     font-size: 14px;
     font-weight:bold;
