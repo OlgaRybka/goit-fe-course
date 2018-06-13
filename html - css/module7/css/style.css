@@ -1,4 +1,4 @@
-/* montserrat-regular - latin */
+l;l;l;l;l;        []'''''''''p;p;p;p;p;p;pp/* montserrat-regular - latin */
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
@@ -304,9 +304,10 @@ textarea::placeholder {
     padding-top: 15px;
 }
 
-input:required:invalid{
+input:focus:required:invalid {
     border-color: #800000;
     border-width: 3px;
+    outline: none;
 }
 
 input:required:valid{
@@ -314,9 +315,10 @@ input:required:valid{
     border-width: 3px;
 }
 
-textarea:required:invalid{
+textarea:focus:required:invalid{
     border-color: #800000;
     border-width: 3px;
+    outline: none;
 }
 
 textarea:required:valid{
