@@ -128,13 +128,21 @@ h1{
     height:auto;
 }
 
-.icon_1{
-    background-color:  rgb(255,78,80);
-}
-.icon_2{
-    background-color:  rgb(255,78,80);
+.b1{
+    background:  rgb(255,78,80);
 }
 
+.b2{
+    background: #1cd7ad;
+}
+
+.b3{
+    background: #ffa507;
+}
+
+.b4{
+    background:#4e73db;
+}
 .name{
     font-family: "Montserrat",sans-serif;
     font-size: 14px;
@@ -258,6 +266,7 @@ h1 {
     justify-content: space-between;
     margin:auto;
 }
+
 h1 {
     margin:50px 0;
 }
