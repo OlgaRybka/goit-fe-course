@@ -9,18 +9,19 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Roboto" rel="stylesheet">
 </head>
+
 <body>
-    <header>
+    <header class="page-header">
         <div class="wrap">
           <div class="bar">
             <div class="logo"> MoGo</div>
             <nav class="menu">
                     <ul class="menu">
-                            <li class = "menu"> <a href="#" class = "menulink"> About </a></li>
-                            <li class = "menu"> <a href="#" class = "menulink"> Service </a></li>
-                            <li class = "menu"> <a href="#" class = "menulink"> Work </a></li>
-                            <li class = "menu"> <a href="#" class = "menulink"> Blog </a></li>
-                            <li class = "menu"> <a href="#" class = "menulink"> Contact us </a></li>
+                            <li class = "menu__item"> <a href="#" class = "menu__link"> About </a></li>
+                            <li class = "menu__item"> <a href="#" class = "menu__link"> Service </a></li>
+                            <li class = "menu__item"> <a href="#" class = "menu__link"> Work </a></li>
+                            <li class = "menu__item"> <a href="#" class = "menu__link"> Blog </a></li>
+                            <li class = "menu__item"> <a href="#" class = "menu__link"> Contact us </a></li>
                    </ul>
             </nav>
           </div>
@@ -35,68 +36,68 @@
             <button class="more">Learn More</button>
           </div>
         </div>
-
     </header>  
+
     <main>
     <div class="heading">
-    <h1> We work with </h1> 
-    <p class="under">amazing services</p> 
+    <h1 class="heading__title"> We work with </h1> 
+    <p class="heading__under">amazing services</p> 
     </div>
     
     <section class="main clearfix">
 
         <div class="description">
           <img src="./img/ALARM.svg" width="32px" height="32px">
-           <div class="decription_content">
-             <h2 class="title ph">Photography</h2>
-             <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel. </p>
+           <div class="decription__content">
+             <h2 class="description__title">Photography</h2>
+             <p class="description__main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel. </p>
             </div> 
         </div>
                 
         <div class="description">
           <img src="./img/LINEGRAPH.svg" width="32px" height="32px">  
-          <div class="decription_content">    
-            <h2 class="title web">Web Design</h2>
-            <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel.</p>
+          <div class="decription__content">    
+            <h2 class="description__title">Web Design</h2>
+            <p class="description__main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel.</p>
           </div>
         </div>
 
         <div class="description">
           <img src="./img/COMPUTER.svg" width="32px" height="32px"> 
-          <div class="decription_content"> 
-            <h2 class="title creativ">Creativity</h2>
-            <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel. </p>
+          <div class="decription__content"> 
+            <h2 class="description__title">Creativity</h2>
+            <p class="description__main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel. </p>
           </div>
         </div>
 
         <div class="description">
           <img src="./img/BOOK.svg" width="32px" height="32px">
-          <div class="decription_content">
-            <h2 class="title seo">SEO</h2>
-            <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel. </p>
+          <div class="decription__content">
+            <h2 class="description__title">SEO</h2>
+            <p class="description__main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel. </p>
           </div>
         </div> 
 
         <div class="description">
           <img src="./img/HOME.svg" width="32px" height="32px">
-          <div class="decription_content">
-            <h2 class="title css">CSS+HTML</h2>
-            <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel. </p>
+          <div class="decription__content">
+            <h2 class="description__title">CSS+HTML</h2>
+            <p class="description__main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel. </p>
           </div>
         </div>     
 
         <div class="description">
           <img src="./img/IMAGE.svg" width="32px" height="32px">
-          <div class="decription_content">
-            <h2 class="title digit">Digital</h2>
-            <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel. </p>
+          <div class="decription__content">
+            <h2 class="description__title">Digital</h2>
+            <p class="description__main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui tempore quasi labore vel. </p>
           </div>
         </div> 
     </section>
 
-    <div class="team">
-        <h3> Who we are </h3> 
-        <p class="under"> meet our team</p> 
+    <div class="heading">
+        <h3 class="heading__title"> Who we are </h3> 
+        <p class="heading__under"> meet our team</p> 
     </div>
 
     <section class="guys">
@@ -104,43 +105,43 @@
        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque iste odio facilis nam. Ab harum ullam mollitia, saepe, hic at beatae sit cumque aliquid doloremque similique dicta ipsa delectus enim.</div></p>
      </div>
     <div class="pictures clearfix">
-        <div class="first pic">
+        <div class="pic">
             <img scrset="./img/man1.jpg 370w, ./img/man1@2x.jpg 740w" src="./img/man1.jpg"  alt="" class="scr" width="380" height="470">
-            <p class="name">Matthew Dix</p>
-            <p class="job"> Graphic Design</p>
+            <p class="pic__name">Matthew Dix</p>
+            <p class="pic__job"> Graphic Design</p>
         <div class="hov">
             <div class="icons">
-             <svg width="26px" height="26px"> <use href="./img/symbol-defs#icon-facebook@1x" class="social"></use></svg>
-             <svg width="26px" height="26px"> <use href="./img/symbol-defs#icon-instagram@1x"class="social"></use></svg>
-             <svg width="26px" height="26px"> <use href="./img/symbol-defs#icon-pinterest@1x" class="social"></use></svg>
-             <svg width="26px" height="26px"> <use href="./img/symbol-defs#icon-twitter@1x" class="social"></use></svg>
+             <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-facebook@1x" class="social"></use></svg>
+             <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-instagram@1x"class="social"></use></svg>
+             <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-pinterest@1x" class="social"></use></svg>
+             <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-twitter@1x" class="social"></use></svg>
             </div>
         </div>
         </div>
-        <div class="second pic">
+        <div class="pic">
             <img scrset="./img/man2.jpg 370w, ./img/man2@2x.jpg 740w" src="./img/man2.jpg" alt="" class="scr"  width="380" height="470">
-            <p class="name"> Christopher Campbell</p>
-            <p class="job"> Branding/ UX Design</p>
+            <p class="pic__name"> Christopher Campbell</p>
+            <p class="pic__job"> Branding/ UX Design</p>
             <div class="hov">
-              <ul class="icons">
-                <li><a href="" class="href"> <img  src="./img/facebook.png" alt=""> </a></li>
-                <li><a href="" class="href"><img  src="./img/twitter.png" alt=""></a></li>
-                <li><a href="" class="href"><img  src="./img/pinterest.png"alt="" ></a></li>
-                <li><a href="" class="href"><img  src="./img/instagram.png" alt=""></a></li>
-              </ul>
+              <div class="icons">
+                <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-facebook@1x" class="social"></use></svg>
+                <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-instagram@1x"class="social"></use></svg>
+                <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-pinterest@1x" class="social"></use></svg>
+                <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-twitter@1x" class="social"></use></svg>
+               </div>
         </div>
         </div>
-        <div class="third pic">
+        <div class="pic">
             <img scrset=" ./img/man3.jpeg 370w, ./img/man3@2x.jpg 740w" src="./img/man3.jpg" alt="" class="scr"  width="380" height="470">
-            <p class="name">Michael Fertig</p>
-            <p class="job"> Developer</p>
+            <p class="pic__name">Michael Fertig</p>
+            <p class="pic__job"> Developer</p>
             <div class="hov">
-              <ul class="icons">
-                <li><a href="" class="href"> <img src="./img/facebook.png" alt=""> </a></li>
-                <li><a href="" class="href"><img  src="./img/twitter.png" alt=""></a></li>
-                <li><a href="" class="href"><img  src="./img/pinterest.png"alt="" ></a></li>
-                <li><a href="" class="href"><img  src="./img/instagram.png" alt=""></a></li>
-               </ul>
+              <div class="icons">
+                <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-facebook@1x" class="social"></use></svg>
+                <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-instagram@1x"class="social"></use></svg>
+                <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-pinterest@1x" class="social"></use></svg>
+                <svg width="26px" height="26px"> <use href="./img/symbol-defs.svg#icon-twitter@1x" class="social"></use></svg>
+               </div>
             </div>
         </div>
     </div>
@@ -151,8 +152,8 @@
          <p> © 2016 MoGo free PSD template by <span class="coname">Laaqiq</span></p>
     </div>
     <form class ="subscription-form" action="#">
-        <input type="text" placeholder ="Your Email..." name="email">
-        <button class ="btn"> Subscribe </button>
+        <input type="subscription-form__text" placeholder ="Your Email..." name="email">
+        <button class ="subscription__form__btn"> Subscribe </button>
     </form>
 </footer>
 </body>

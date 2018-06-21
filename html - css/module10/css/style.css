@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+.link{
+    display:block;
+    text-decoration: none;
+}
+
 .wrap{
     background:url('../img/header.jpg');
     background-size: cover;
@@ -74,17 +79,17 @@
     width: 1170px;
 }
 
-ul.menu{
+ul.menu__item{
     width: 550px;
     text-align: justify;
 }
 
-li.menu{
+li.menu__item{
     display:inline;
     text-align: right;
 }
 
-a {
+.menu__link {
     text-align: center;
     text-decoration: none;
     color:  #ffffff;
@@ -95,7 +100,7 @@ a {
     font-weight: bold;
     margin-right:50px;
 }
-a:hover {
+.menu__link:hover {
     color:#f38181;
     text-decoration: underline; 
 }
@@ -113,7 +118,7 @@ a:hover {
 }
 
 
-h1, h3 {
+.heading__title {
     text-decoration: none;
     font-family: "Kaushan Script";
     color:  #333333;
@@ -124,7 +129,7 @@ h1, h3 {
     font-style: italic;
 }
 
-.under{
+.heading__under{
     font-family: "Montserrat Regular";sans-serif;
     margin:30px auto 0;
     color: #333333;
@@ -136,7 +141,7 @@ h1, h3 {
     text-decoration:none;
 }
 
-.under:after{
+.heading__under:after{
     content:"";
     background: #f38181;
     height:2px;
@@ -177,11 +182,11 @@ h1, h3 {
     justify-content: space-between;
     }
     
-.decription_content {
+.decription__content {
     width: 270px;
 }
           
-.title{
+.description__title{
    font-family: 'Montserrat Regular', sans-serif;
    color:  #333333;
    font-size: 14px;
@@ -191,7 +196,7 @@ h1, h3 {
 }
 
 
-.main-text{
+.description__main-text{
    font-family: 'Roboto Regular', sans-serif;
    color:  #999999;
    font-size: 15px;
@@ -224,7 +229,7 @@ h1, h3 {
     max-width: 1170px;
 }
 
-.name{
+.pic__name{
     font-family: 'Montserrat Regular', sans-serif;
     color:  #333333;
     font-size: 14px;
@@ -233,7 +238,7 @@ h1, h3 {
     text-transform:uppercase;
 }
 
-.job {
+.pic__job {
     font-family: "Roboto Regular", sens-serif;
     color: #999999;
     font-size: 15px;
@@ -290,11 +295,9 @@ h1, h3 {
     width: 56px;
     height: 56px;
     background-color:  #fce38a;
-    position: relative;
 }
  
 .social {
-    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -344,13 +347,13 @@ input {
     width: 230px;
     height: 40px;
 }
-button{
+
+button {
     background-color:  #95e1d3;
     width: 150px;
     height: 40px;
 }
-
-.btn{
+.subscription-form__btn{
     font-family: "Montserrat Regular", sans-serif;
     color:  #ffffff;
     font-size: 14px;
