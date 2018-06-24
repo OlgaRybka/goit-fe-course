@@ -1,0 +1,89 @@
+.pictures {
+    display: block;
+    display:flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+
+.pic__name{
+    font-family: 'Montserrat Regular', sans-serif;
+    color:  #333333;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.pic__job {
+    font-family: "Roboto Regular", sens-serif;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 24px;
+    text-align: center;
+}
+
+.pic{
+    position: relative;
+    width: 380px;
+    height:470px;
+}
+
+.pic:hover{
+    cursor:pointer;
+}
+
+.pic:hover .pic__hov{
+    display:block;
+}
+
+.pic__hov{
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:380px;
+    height:470px;
+    background: linear-gradient(to top, #f1d787, #ef898a);
+    box-shadow: 6px 6px #95e1d3;
+    z-index: 1;
+    opacity:0.8;
+    display: none;
+    text-align: center;
+}
+
+.pic__icons {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    display:flex;
+    justify-content: center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+ 
+.pic__icons svg{
+    display:inline-block;
+    margin: 1px;
+    padding: 0;
+    width: 56px;
+    height: 56px;
+    background-color:  #fce38a;
+}
+ 
+.pic__social {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pic__social:hover{
+    background-color: #f38181;
+    fill:#ffffff;
+}

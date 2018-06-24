@@ -1,0 +1,18 @@
+.subscription-form__btn{
+    font-family: "Montserrat Regular", sans-serif;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subscription-form input::placeholder {
+    font-family: "Roboto Regular", sans-serif;
+    color:  #cccccc;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 24px;
+    text-align: left;
+}
+

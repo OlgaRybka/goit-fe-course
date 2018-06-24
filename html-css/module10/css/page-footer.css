@@ -1,0 +1,18 @@
+.page-footer{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    font-family: 'Montserrat Regular', sans-serif;
+    color:  #333333;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 20px;
+}
+
+.page-footer__coname{
+    color:  #f38181;
+}
