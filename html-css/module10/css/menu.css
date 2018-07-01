@@ -1,6 +1,7 @@
 .menu{
     background:url('../img/header.jpg');
     background-size: cover;
+    text-align: center;
     min-height:1000px;
     position: relative;
 }
