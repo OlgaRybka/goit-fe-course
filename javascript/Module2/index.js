@@ -1,10 +1,21 @@
-'use strict';
-
-const input = 0;
-const arr =[]
+const passwordTrue = 'qwerty123';
+let indexPassword = 3;
+let passwordUser;
 
 do {
-  input = prompt('Введите число', '');
-} while(input !== null);
+    passwordUser = prompt('Введите пароль: ');
+    if (!passwordUser) {
+        break;
+    } else if (passwordUser === passwordTrue) {
+        alert('Добро пожаловать!');
+        break;
+    } else if (passwordUser !== passwordTrue) {
+        indexPassword = indexPassword - 1;
+        alert(`Неверный пароль, у Вас осталось ${indexPassword} попыток.`);
+    } 
 
-console.log(input)
+} while ( indexPassword > 0 || passwordUser === passwordTrue )
+
+if (indexPassword === 0) {
+    alert('У Вас закончились попытки, аккаунт заблокирован.');
+}
